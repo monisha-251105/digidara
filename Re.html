@@ -1,0 +1,93 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/>/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+  background: linear-gradient(90deg, #6a11cb, #2575fc); /* Purple gradient */
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffe600;
+}
+
+/* Container and Form Styling */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #f7f9fc;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+  margin-bottom: 25px;
+  color: #4a148c;
+  text-align: center;
+}
+
+.alumni-form input,
+.alumni-form button {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.alumni-form input:focus {
+  outline: none;
+  border-color: #6a11cb;
+  background-color: #f0eaff;
+}
+
+.btn {
+  background-color: #6a11cb;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #5b0cbd;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eee;
+  color: #666;
+  margin-top: 50px;
+}
