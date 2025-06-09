@@ -1,0 +1,126 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/>/* Reset & base styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff5fa;
+}
+
+/* Navbar styling */
+.navbar {
+  background: linear-gradient(to right, #ff69b4, #ffb6c1); /* Pink gradient */
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #fff0f5;
+}
+
+/* Container & section styles */
+.container {
+  padding: 30px;
+}
+
+h1 {
+  color: #d63384;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Alumni card for listing */
+.alumni-card {
+  background-color: #ffe4ec;
+  border: 1px solid #ffb6c1;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px;
+  box-shadow: 2px 4px 10px rgba(255, 105, 180, 0.2);
+}
+
+.alumni-card h2 {
+  margin-top: 0;
+  color: #c2185b;
+}
+
+/* Admin table styling */
+.table-container {
+  overflow-x: auto;
+  margin: 20px auto;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff0f5;
+}
+
+.admin-table th,
+.admin-table td {
+  border: 1px solid #ffb6c1;
+  padding: 12px;
+  text-align: left;
+}
+
+.admin-table th {
+  background-color: #ff69b4;
+  color: white;
+}
+
+.inline-form select,
+.inline-form button {
+  margin-top: 5px;
+}
+
+/* Button styling */
+button,
+.btn {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #d63384;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #ffc0cb;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
